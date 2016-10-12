@@ -11,7 +11,7 @@ View the source for [jsantell.com](https://github.com/jsantell/jsantell.com) to 
 
 ## Support
 
-If using Express 3, use **v1.1.0**. For sites using Express 4+, use **v2.0.0+**.
+Use a Express 4+
 
 ## Documentation
 
@@ -36,17 +36,16 @@ These sites are using Poet for their blogging, check them out! Ping me, or send 
 
 ## Installing
 
-* `npm install poet`
+* `yarn add just-poet`
 
 ## Setup
 
 Include Poet in your package.json and add it to your app, passing in your Express app and options. Call the `init` method and routes will be set up!
 
 ```javascript
-var
-  express = require('express'),
-  app = express(),
-  Poet = require('poet');
+const express = require('express');
+const app = express();
+const Poet = require('just-poet');
   
 var poet = Poet(app, {
   posts: './_posts/',
@@ -67,8 +66,8 @@ To run tests, run `npm test` from the project root to run the Mocha tests. Gener
 
 ## Contributing
 
-Please read the [CONTRIBUTING.md](https://github.com/jsantell/poet/blob/master/CONTRIBUTING.md) for guides on contributions.
+Please read the [CONTRIBUTING.md](https://github.com/ruslankonev/just-poet/blob/master/CONTRIBUTING.md) for guides on contributions.
 
 ## License
 
-MIT License, Copyright (c) 2012 Jordan Santell
+MIT License, Copyright (c) 2016 Jordan Santell & Ruslan Konev
