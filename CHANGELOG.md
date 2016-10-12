@@ -1,5 +1,7 @@
 # Change Log
 
+## Update dependincies after fork
+
 ## v2.0.1
 
 * Added Support scheduled posts.
