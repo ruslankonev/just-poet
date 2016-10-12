@@ -1,26 +1,26 @@
 {
-  "name": "poet",
-  "description": "quick and easy blog module, using markdown, jade, whatever",
-  "version": "2.0.1",
+  "name": "just-poet",
+  "description": "quick and easy blog module, using markdown, jade, whatever.",
+  "version": "1.0.0",
   "main": "lib/poet",
   "dependencies": {
-    "marked": "~0.3.2",
-    "jade": ">= 0.27.1",
-    "json-front-matter": ">= 0.1.4",
-    "underscore": "1.4.x",
-    "front-matter": ">= 0.1.x",
-    "when": "2.1.x",
-    "fs-then": "0.1.x"
+    "marked": "^0.3.6",
+    "pug": ">= 2.0.0",
+    "json-front-matter": "^1.0.0",
+    "lodash": "^4.16.4",
+    "front-matter": "^2.1.0",
+    "when": "^3.7.7",
+    "fs-then-native": "^1.0.2"
   },
   "devDependencies": {
     "mocha": ">= 1.3.2",
     "chai": ">= 1.1.1",
     "supertest": ">= 0.0.1",
-    "express": ">= 4.0.0"
+    "express": "^4.0.0"
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/jsantell/poet"
+    "url": "http://github.com/ruslankonev/poet"
   },
   "scripts": {
     "test": "./node_modules/.bin/mocha --reporter spec --ui bdd"
@@ -34,9 +34,9 @@
     "writing"
   ],
   "author": {
-    "name": "Jordan Santell",
-    "url": "http://github.com/jsantell"
+    "name": "Ruslan Konev",
+    "url": "http://github.com/ruslankonev"
   },
   "license": "MIT",
-  "engines": ["node >= 0.10.2"]
+  "engines": ["node >= 4.0.0"]
 }
