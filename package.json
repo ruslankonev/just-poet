@@ -20,7 +20,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "http://github.com/ruslankonev/poet"
+        "url": "http://github.com/ruslankonev/just-poet"
     },
     "scripts": {
         "test": "./node_modules/.bin/mocha --reporter spec --ui bdd"
