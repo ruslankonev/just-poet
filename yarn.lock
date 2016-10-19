@@ -318,6 +318,12 @@ front-matter@^2.1.0:
   dependencies:
     js-yaml "^3.4.6"
 
+fs-then:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/fs-then/-/fs-then-0.2.0.tgz#3cf11d9ab28e7a0bd4f4be6f68d10a8243de76ef"
+  dependencies:
+    node-then "~0.1"
+
 fs-then-native@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/fs-then-native/-/fs-then-native-1.0.2.tgz#ac8d3807c9f1bbd1279607fb228e0ab649bb41fe"
@@ -569,6 +575,12 @@ negotiator@0.6.1:
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/negotiator/-/negotiator-0.6.1.tgz#2b327184e8992101177b28563fb5e7102acd0ca9"
 
+node-then@~0.1:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/node-then/-/node-then-0.1.0.tgz#af1a89512cae670082238f1f92d6cb80b75f94d2"
+  dependencies:
+    when "~2.2"
+
 object-assign@^4.0.1, object-assign@^4.1.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/object-assign/-/object-assign-4.1.0.tgz#7a3b3d0e98063d43f4c03f2e8ae6cd51a86883a0"
@@ -613,6 +625,19 @@ proxy-addr@~1.1.2:
   dependencies:
     forwarded "~0.1.0"
     ipaddr.js "1.1.1"
+
+pug:
+  version "2.0.0-beta6"
+  resolved "https://registry.yarnpkg.com/pug/-/pug-2.0.0-beta6.tgz#9ead2e59e540a467efc3787ccb03e4574ba5fae9"
+  dependencies:
+    pug-code-gen "^1.1.0"
+    pug-filters "^1.2.4"
+    pug-lexer "^2.2.0"
+    pug-linker "^1.0.1"
+    pug-load "^2.0.3"
+    pug-parser "^2.0.1"
+    pug-runtime "^2.0.2"
+    pug-strip-comments "^1.0.1"
 
 pug-attrs@^2.0.1:
   version "2.0.1"
@@ -693,19 +718,6 @@ pug-strip-comments@^1.0.1:
 pug-walk@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/pug-walk/-/pug-walk-1.0.0.tgz#7f4ae1456a4f18feee40a0d708b75c1c51d2e4e4"
-
-pug@^2.0.0-beta6:
-  version "2.0.0-beta6"
-  resolved "https://registry.yarnpkg.com/pug/-/pug-2.0.0-beta6.tgz#9ead2e59e540a467efc3787ccb03e4574ba5fae9"
-  dependencies:
-    pug-code-gen "^1.1.0"
-    pug-filters "^1.2.4"
-    pug-lexer "^2.2.0"
-    pug-linker "^1.0.1"
-    pug-load "^2.0.3"
-    pug-parser "^2.0.1"
-    pug-runtime "^2.0.2"
-    pug-strip-comments "^1.0.1"
 
 qs@^6.1.0:
   version "6.2.1"
@@ -885,6 +897,10 @@ void-elements@^2.0.1:
 when@^3.7.7:
   version "3.7.7"
   resolved "https://registry.yarnpkg.com/when/-/when-3.7.7.tgz#aba03fc3bb736d6c88b091d013d8a8e590d84718"
+
+when@~2.2:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/when/-/when-2.2.1.tgz#b1def994017350b8087f6e9a7596ab2833bdc712"
 
 window-size@0.1.0:
   version "0.1.0"
